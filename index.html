@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uma Mahesh - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f2e6;
+      margin: 0;
+      padding: 20px;
+      color: black;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      border: 1px solid #8bc34a;
+      border-radius: 8px;
+      padding: 20px;
+    }
+    h1 {
+      color: #4caf50;
+      text-align: center;
+    }
+    h2 {
+      border-bottom: 1px solid #8bc34a;
+      padding-bottom: 5px;
+      color: #4caf50;
+    }
+    ul {
+      line-height: 1.6;
+    }
+    .profile-pic {
+      float: right;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border: 2px solid #4caf50;
+    }
+    .contact a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    a {
+      color: #1a0dab;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+      color: gray;
+    }
+    .dark-mode-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #4caf50;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    /* Dark mode styles */
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
+    .dark-mode .container {
+      background-color: #222;
+      border-color: #4caf50;
+    }
+    .dark-mode a {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>K UMA MAHESH</h1>
+    <img src="pp.jpg" alt="Profile Picture" class="profile-pic" />
+    <p>Email: <a href="mailto:umamaheshkotni2005@gmail.com">umamaheshkotni2005@gmail.com</a></p>
+    <p>Phone: 7337063596</p>
+    <p>Location: Srikakulam, India</p>
+
+    <h2>About Me</h2>
+    <p>I am a passionate full-stack developer with a strong interest in building responsive web applications and user-centric solutions and Research Machine learning.</p>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Languages: JavaScript, Python, Java</li>
+      <li>Web: HTML5, CSS3, Bootstrap, React.js</li>
+      <li>Databases: MongoDB, MySQL</li>
+      <li>Tools: Git, VS Code, Chrome DevTools</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website</strong> – Created a personal resume site using HTML, CSS, and JS.</li>
+      <li><strong>To-do App</strong> – Built a task manager using JavaScript and localStorage.</li>
+      <li><strong>Weather App</strong> – Fetched real-time weather data using APIs and displayed it with dynamic styling.</li>
+    </ul>
+
+    <h2>Certifications</h2>
+    <ul>
+      <li>Full Stack Web Development – NPTEL (2025)</li>
+      <li>JavaScript Essentials – HackerRank</li>
+    </ul>
+
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Blogging about technology</li>
+      <li>Participating in coding challenges</li>
+      <li>Volunteering at tech events</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:umamaheshkotni2005@gmail.com">umamaheshkotni2005@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/umamahes-2005" target="_blank">github.com/umamahes-2005</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/uma-mahesh-kotn-8168192b9/" target="_blank">linkedin.com/in/uma-mahesh-kotn-8168192b9/</a></p>
+
+    <div class="footer">© 2025 Uma Mahesh Kotni</div>
+  </div>
+
+  <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
